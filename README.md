@@ -1,6 +1,13 @@
 #DEVTPLBUILD
 #Maxwell Schmitt (maxwschm@cisco.com)
+
+
 ## Provided as-is -- allows you to build an xml file to import multiple devices in NSO
+
+
+###Prerequisites:
+Python 3
+
 
 ### Using:
 Edit the python file's infile and outfile variable to what you'd prefer
@@ -18,7 +25,7 @@ name (displayed in nso), device address, ssh port, authgroup (should already be 
 Then call like:
 python3 devtplbuild.py
 and import into NSO like:
-ncs_load -lm outfile
+ncs_load -lm outfile (requires NSO to be sourced)
 
 
 Sample infile and outfile are included in the repo for you to analyze.

@@ -13,6 +13,7 @@ Python 3
 Edit the python file's infile and outfile variable to what you'd prefer
 
 The infile's structure should look like:
+
 r1,127.0.0.1,10025,default,cisco-ios-xr
 r2,127.0.0.1,10026,default,cisco-ios-xr
 r3,127.0.0.1,10027,default,cisco-ios-xr

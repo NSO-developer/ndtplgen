@@ -1,0 +1,242 @@
+<devices xmlns="http://tail-f.com/ns/ncs">
+  
+  <device>
+
+     <name>r1</name>
+
+     <address>127.0.0.1</address>
+
+     <port>10025</port>
+
+     <ssh>
+
+       <host-key>
+
+         <algorithm>ssh-rsa</algorithm>
+
+         <key-data>AAAAB3NzaC1yc2EAAAADAQABAAABAQCfwcpG2KIWUV0xyEimS59buyNoGJSDycB66tXd0cqNOxa6cHnKK7QAHRDrrPWu668yYou7HGiGeoKhN5lV1ztDvTNtpYYvU5aNYejBq+EoFABgX5pLjguyTW7JpTe6ZdlIcgrSqlldjNsMHEc8xmHq1lJDJDJeC4PzIgUMYxaNOiYa5rxTABvYBk8O2qrxFqDAT3ym9p50iYFIjTrkLVwBK3HPW+Qlto7gf/rUHDYUEhBb0s3HI63bd63VmD21CwxvYta693XIFOR5lgxQzTNvigvWoMfrbO7KcI1Jq0+tCtzMPVnVKqjH8KK+C4Qt7gIBVmYfEMZqLmeVUdAKRqNf</key-data>
+
+       </host-key>
+
+     </ssh>
+
+     <state>
+
+       <admin-state>unlocked</admin-state>
+
+     </state>
+
+     <authgroup>default</authgroup>
+
+     <device-type>
+
+       <cli>
+
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+
+       </cli>
+
+     </device-type>
+
+   </device>
+  
+  <device>
+
+     <name>r2</name>
+
+     <address>127.0.0.1</address>
+
+     <port>10026</port>
+
+     <ssh>
+
+       <host-key>
+
+         <algorithm>ssh-rsa</algorithm>
+
+         <key-data>AAAAB3NzaC1yc2EAAAADAQABAAABAQCfwcpG2KIWUV0xyEimS59buyNoGJSDycB66tXd0cqNOxa6cHnKK7QAHRDrrPWu668yYou7HGiGeoKhN5lV1ztDvTNtpYYvU5aNYejBq+EoFABgX5pLjguyTW7JpTe6ZdlIcgrSqlldjNsMHEc8xmHq1lJDJDJeC4PzIgUMYxaNOiYa5rxTABvYBk8O2qrxFqDAT3ym9p50iYFIjTrkLVwBK3HPW+Qlto7gf/rUHDYUEhBb0s3HI63bd63VmD21CwxvYta693XIFOR5lgxQzTNvigvWoMfrbO7KcI1Jq0+tCtzMPVnVKqjH8KK+C4Qt7gIBVmYfEMZqLmeVUdAKRqNf</key-data>
+
+       </host-key>
+
+     </ssh>
+
+     <state>
+
+       <admin-state>unlocked</admin-state>
+
+     </state>
+
+     <authgroup>default</authgroup>
+
+     <device-type>
+
+       <cli>
+
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+
+       </cli>
+
+     </device-type>
+
+   </device>
+  
+  <device>
+
+     <name>r3</name>
+
+     <address>127.0.0.1</address>
+
+     <port>10027</port>
+
+     <ssh>
+
+       <host-key>
+
+         <algorithm>ssh-rsa</algorithm>
+
+         <key-data>AAAAB3NzaC1yc2EAAAADAQABAAABAQCfwcpG2KIWUV0xyEimS59buyNoGJSDycB66tXd0cqNOxa6cHnKK7QAHRDrrPWu668yYou7HGiGeoKhN5lV1ztDvTNtpYYvU5aNYejBq+EoFABgX5pLjguyTW7JpTe6ZdlIcgrSqlldjNsMHEc8xmHq1lJDJDJeC4PzIgUMYxaNOiYa5rxTABvYBk8O2qrxFqDAT3ym9p50iYFIjTrkLVwBK3HPW+Qlto7gf/rUHDYUEhBb0s3HI63bd63VmD21CwxvYta693XIFOR5lgxQzTNvigvWoMfrbO7KcI1Jq0+tCtzMPVnVKqjH8KK+C4Qt7gIBVmYfEMZqLmeVUdAKRqNf</key-data>
+
+       </host-key>
+
+     </ssh>
+
+     <state>
+
+       <admin-state>unlocked</admin-state>
+
+     </state>
+
+     <authgroup>default</authgroup>
+
+     <device-type>
+
+       <cli>
+
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+
+       </cli>
+
+     </device-type>
+
+   </device>
+  
+  <device>
+
+     <name>r4</name>
+
+     <address>127.0.0.1</address>
+
+     <port>10028</port>
+
+     <ssh>
+
+       <host-key>
+
+         <algorithm>ssh-rsa</algorithm>
+
+         <key-data>AAAAB3NzaC1yc2EAAAADAQABAAABAQCfwcpG2KIWUV0xyEimS59buyNoGJSDycB66tXd0cqNOxa6cHnKK7QAHRDrrPWu668yYou7HGiGeoKhN5lV1ztDvTNtpYYvU5aNYejBq+EoFABgX5pLjguyTW7JpTe6ZdlIcgrSqlldjNsMHEc8xmHq1lJDJDJeC4PzIgUMYxaNOiYa5rxTABvYBk8O2qrxFqDAT3ym9p50iYFIjTrkLVwBK3HPW+Qlto7gf/rUHDYUEhBb0s3HI63bd63VmD21CwxvYta693XIFOR5lgxQzTNvigvWoMfrbO7KcI1Jq0+tCtzMPVnVKqjH8KK+C4Qt7gIBVmYfEMZqLmeVUdAKRqNf</key-data>
+
+       </host-key>
+
+     </ssh>
+
+     <state>
+
+       <admin-state>unlocked</admin-state>
+
+     </state>
+
+     <authgroup>default</authgroup>
+
+     <device-type>
+
+       <cli>
+
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+
+       </cli>
+
+     </device-type>
+
+   </device>
+  
+  <device>
+
+     <name>r5</name>
+
+     <address>127.0.0.1</address>
+
+     <port>10029</port>
+
+     <ssh>
+
+       <host-key>
+
+         <algorithm>ssh-rsa</algorithm>
+
+         <key-data>AAAAB3NzaC1yc2EAAAADAQABAAABAQCfwcpG2KIWUV0xyEimS59buyNoGJSDycB66tXd0cqNOxa6cHnKK7QAHRDrrPWu668yYou7HGiGeoKhN5lV1ztDvTNtpYYvU5aNYejBq+EoFABgX5pLjguyTW7JpTe6ZdlIcgrSqlldjNsMHEc8xmHq1lJDJDJeC4PzIgUMYxaNOiYa5rxTABvYBk8O2qrxFqDAT3ym9p50iYFIjTrkLVwBK3HPW+Qlto7gf/rUHDYUEhBb0s3HI63bd63VmD21CwxvYta693XIFOR5lgxQzTNvigvWoMfrbO7KcI1Jq0+tCtzMPVnVKqjH8KK+C4Qt7gIBVmYfEMZqLmeVUdAKRqNf</key-data>
+
+       </host-key>
+
+     </ssh>
+
+     <state>
+
+       <admin-state>unlocked</admin-state>
+
+     </state>
+
+     <authgroup>default</authgroup>
+
+     <device-type>
+
+       <cli>
+
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+
+       </cli>
+
+     </device-type>
+
+   </device>
+  
+  <device>
+
+     <name>r6</name>
+
+     <address>127.0.0.1</address>
+
+     <port>10030</port>
+
+     <ssh>
+
+       <host-key>
+
+         <algorithm>ssh-rsa</algorithm>
+
+         <key-data>AAAAB3NzaC1yc2EAAAADAQABAAABAQCfwcpG2KIWUV0xyEimS59buyNoGJSDycB66tXd0cqNOxa6cHnKK7QAHRDrrPWu668yYou7HGiGeoKhN5lV1ztDvTNtpYYvU5aNYejBq+EoFABgX5pLjguyTW7JpTe6ZdlIcgrSqlldjNsMHEc8xmHq1lJDJDJeC4PzIgUMYxaNOiYa5rxTABvYBk8O2qrxFqDAT3ym9p50iYFIjTrkLVwBK3HPW+Qlto7gf/rUHDYUEhBb0s3HI63bd63VmD21CwxvYta693XIFOR5lgxQzTNvigvWoMfrbO7KcI1Jq0+tCtzMPVnVKqjH8KK+C4Qt7gIBVmYfEMZqLmeVUdAKRqNf</key-data>
+
+       </host-key>
+
+     </ssh>
+
+     <state>
+
+       <admin-state>unlocked</admin-state>
+
+     </state>
+
+     <authgroup>default</authgroup>
+
+     <device-type>
+
+       <cli>
+
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+
+       </cli>
+
+     </device-type>
+
+   </device>
+</devices>

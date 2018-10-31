@@ -7,6 +7,8 @@
 
 ### Prerequisites:
 Python 3
+ssh-keyscan in the path.
+(TESTED ON UBUNTU 18.04)
 
 
 ### Using:
